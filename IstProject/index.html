@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Page</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="first-container">
+        <div class="forMobile">
+          <img src="./assets/Mobile-logo.svg" alt="logo" download />
+        </div>
+        <div class="forDesktop">
+          <img src="./assets/Desktop-logo.svg" alt="logo" download />
+        </div>
+        <h2>For Individuals</h2>
+        <p class="message forMobile">
+          Inspiring wholesome harmony for the mind, body and spirit, for
+          everyone, everywhere.
+        </p>
+        <p class="message forDesktop">
+          Start benefiting from the wellness experience. For companies looking
+          on increasing productivity, and improving organization wellness.
+        </p>
+      </div>
+      <div class="second-container">
+        <form action="">
+          <div class="bio-data1">
+            <!-- First name -->
+            <div class="data1Info">
+              <label for="first-name"> First Name </label>
+              <input
+                type="text"
+                name="first name"
+                id="first-name"
+                placeholder="Tolu"
+                required
+              />
+            </div>
+            <!-- Last name -->
+            <div class="data1Info">
+              <label for="last name"> Last Name </label>
+              <input type="text" name="last name" id="last name" required />
+            </div>
+          </div>
+          <!-- Gender -->
+          <div class="bio-data2">
+            <div class="data2Info">
+              <label for="gender"> Gender </label>
+              <select
+                name="gender"
+                id="gender"
+                placeholder="select here"
+                required
+              >
+                <option value="" disabled selected>Select here</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+            <!-- Date of birth -->
+            <div class="data2Info">
+              <label for="DOB"> Date of birth</label>
+              <input
+                type="date"
+                name="DOB"
+                id="DOB"
+                placeholder="select here"
+                required
+              />
+            </div>
+          </div>
+          <!-- Weight -->
+          <div class="bio-data3">
+            <div class="data3Info">
+              <label for="weight"> Weight(KG)</label>
+              <input
+                type="text"
+                name="weight"
+                id="weight"
+                placeholder="Enter Weight"
+                required
+              />
+            </div>
+            <!-- Height -->
+            <div class="data3Info">
+              <label for="height"> Height (CM) </label>
+              <input
+                type="text"
+                name="height"
+                id="height"
+                placeholder="Enter height here"
+                required
+              />
+            </div>
+          </div>
+          <!-- Activity Level -->
+          <div class="data4Info">
+            <label for="activity-level"> Activity Level </label>
+            <select
+              name="activity level"
+              id="activity-level"
+              aria-placeholder="Select here"
+              required
+            >
+              <option value="">Select here</option>
+            </select>
+          </div>
+          <!-- Password -->
+          <div class="data5Info">
+            <label for="password"> Password </label>
+            <input type="password" id="password" name="password" required />
+          </div>
+          <div class="submit">
+            <button>Register</button>
+          </div>
+          <footer class="forDesktop">
+            <p>
+              By clicking register, you agree to our
+              <a href="#">Terms of Use</a> and our
+              <a href="#"> Privacy Policy </a>
+            </p>
+          </footer>
+        </form>
+      </div>
+      <footer class="forMobile">
+        <p>
+          By clicking register, you agree to our
+          <a href="#">Terms of Use</a> and our
+          <a href="#"> Privacy Policy </a>
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>
